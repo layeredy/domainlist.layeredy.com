@@ -1,6 +1,6 @@
 // Theme switcher
 const toggleIcon = document.getElementById('theme-toggle');
-const currentTheme = localStorage.getItem('theme') || 'light';
+const currentTheme = localStorage.getItem('theme') || 'dark';
 
 document.documentElement.setAttribute('data-theme', currentTheme);
 updateIcon(currentTheme);
